@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; 
+    color: #0A1A2F; 
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #0A1A2F; 
+    color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    text-align: center;
+    padding: 30px;
+}
+
+.banner img {
+    width: 160px;   
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.conteudo {
+    background-color: #ffffff; 
+    text-align: center;
+    padding: 30px;
+}
+.conteudo ul {
+    list-style: none;  
+    padding-left: 0;   
+    margin-left: 0;    
+}
+
+
+.icones span {
+    font-size: 45px;
+    margin: 15px;
+}
+
+/* IMAGENS */
+.imagens img {
+    width: 160px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 3px solid #0A1A2F; 
+}
+
+.form-box {
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    background: #FFFFFF; 
+    color: #0A1A2F; 
+    padding: 25px;
+    border-radius: 8px;
+    border: 2px solid #0A1A2F;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0A1A2F;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #0A1A2F;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0A1A2F;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #0A1A2F;
+    border: 2px solid #0A1A2F;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #0A1A2F;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.rodape-link {
+    color: #CCCCCC;  
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .imagens img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner img {
+        width: 140px;
+    }
+
+    .form-box {
+        width: 95%;
+    }
+}
